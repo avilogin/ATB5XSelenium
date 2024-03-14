@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Documents for Study/Automation class/JavaPrograms/ATB5XSelenium">
+        <classes>
+            <class name="org.example.Sel02">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="org.example.Sel03">
+                <methods>
+                    <include name="extentions"/>
+                </methods>
+            </class>
+            <class name="org.example.Sel04">
+                <methods>
+                    <include name="extentions"/>
+                </methods>
+            </class>
+            <class name="org.example.Sel05">
+                <methods>
+                    <include name="extentions"/>
+                </methods>
+            </class>
+            <class name="org.example.Sel06">
+                <methods>
+                    <include name="extentions"/>
+                </methods>
+            </class>
+            <class name="org.example.Sel07">
+                <methods>
+                    <include name="extentions"/>
+                </methods>
+            </class>
+            <class name="org.example.Sel08">
+                <methods>
+                    <include name="extentions"/>
+                </methods>
+            </class>
+            <class name="org.example.Sel10">
+                <methods>
+                    <include name="testVWOLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
