@@ -3,42 +3,42 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/Documents for Study/Automation class/JavaPrograms/ATB5XSelenium">
         <classes>
-            <class name="org.example.Sel02">
+            <class name="org.example.SeleniumBasics.Sel02">
                 <methods>
                     <include name="test"/>
                 </methods>
             </class>
-            <class name="org.example.Sel03">
+            <class name="org.example.SeleniumBasics.Sel03">
                 <methods>
                     <include name="extentions"/>
                 </methods>
             </class>
-            <class name="org.example.Sel04">
+            <class name="org.example.SeleniumBasics.Sel04">
                 <methods>
                     <include name="extentions"/>
                 </methods>
             </class>
-            <class name="org.example.Sel05">
+            <class name="org.example.SeleniumBasics.Sel05">
                 <methods>
                     <include name="extentions"/>
                 </methods>
             </class>
-            <class name="org.example.Sel06">
+            <class name="org.example.SeleniumBasics.Sel06">
                 <methods>
                     <include name="extentions"/>
                 </methods>
             </class>
-            <class name="org.example.Sel07">
+            <class name="org.example.SeleniumBasics.Sel07">
                 <methods>
                     <include name="extentions"/>
                 </methods>
             </class>
-            <class name="org.example.Sel08">
+            <class name="org.example.SeleniumBasics.Sel08">
                 <methods>
                     <include name="extentions"/>
                 </methods>
             </class>
-            <class name="org.example.Sel10">
+            <class name="org.example.SeleniumBasics.Sel10">
                 <methods>
                     <include name="testVWOLogin"/>
                 </methods>

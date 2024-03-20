@@ -1,4 +1,4 @@
-package org.example;
+package org.example.SeleniumBasics;
 
 import jdk.jfr.Description;
 import org.openqa.selenium.WebDriver;

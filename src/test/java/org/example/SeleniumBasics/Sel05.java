@@ -1,24 +1,22 @@
-package org.example;
+package org.example.SeleniumBasics;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.Proxy;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class Sel06 {
+public class Sel05 {
 
     @Test
     public void extentions()
     {
         ChromeOptions cm = new ChromeOptions();
-
-        Proxy proxy = new Proxy();//this will help opening the browser in a proxy server
-        proxy.setHttpProxy("121.40.185.42:1080");//here we need to provide the IP address and port number
-        cm.setCapability("proxy", proxy);
+        //cm.setPageLoadStrategy(PageLoadStrategy.NONE);//this will not wait for the page to load
+        //cm.setPageLoadStrategy(PageLoadStrategy.EAGER);//this will wait for a little bit for the page to load
+        cm.setPageLoadStrategy(PageLoadStrategy.NORMAL);//this will wait for the page to load completely
         WebDriver driver = new ChromeDriver(cm);
-        driver.get("https://sdet.live");
+        driver.get("https://youtube.com");
         System.out.println(driver.getTitle());
         driver.quit();
 

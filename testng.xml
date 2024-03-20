@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/Documents for Study/Automation class/JavaPrograms/ATB5XSelenium">
         <classes>
-            <class name="org.example.Sel10">
+            <class name="org.example.SeleniumBasics.Sel10">
                 <methods>
                     <include name="testVWOLogin"/>
                 </methods>
