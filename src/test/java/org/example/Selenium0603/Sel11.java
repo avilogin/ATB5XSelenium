@@ -25,6 +25,8 @@ public class Sel11 {
         Thread.sleep(3000);
         WebElement error_message = driver.findElement(By.className("notification-box-description"));
         String error_msg_text = error_message.getText();
+        String element_attribute = error_message.getAttribute("id");//gets the value of the provided attribute
+        System.out.println(element_attribute );
         Assert.assertEquals(error_msg_text,expt_err_msg);
 
         driver.quit();
