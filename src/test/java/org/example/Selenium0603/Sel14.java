@@ -30,7 +30,7 @@ public class Sel14 {
         {
             System.out.println(element.getText());
         }
-        //58:41
+
 
         driver.close();
 

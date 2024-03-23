@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e68b8bf-78e6-4eac-a6a4-196a64877095" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/3b399320-3782-48f6-997a-619a59b6d79f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/50b9b9bf-0171-49f9-9321-be1deb670b9e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/549cf607-907d-42b7-abef-496217314a6c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5e1db40d-bac8-4ba0-ba3f-69db5b49e9eb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6d32b03e-de4d-4ab1-8313-ea2df850304c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/87bb4ff1-8ef1-4e77-9b96-e5212e1f2d6d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/88b6679b-0444-43cd-a51e-128ef1368f43-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9502cb8a-c3ce-4c0b-900e-f24caa8cbefd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9d3b379e-1703-40c3-82b9-41470b30bca6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a74b1d14-2dd3-4b20-8404-5366381ee7c2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a9bd33f2-7d86-43dc-ba2e-c8a0f6600993-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d781ba74-1913-4227-acb8-14261b4f42c7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e585356b-1d7c-455b-a172-40f9f2362c97-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/edf6d52e-78d9-4ea1-b57d-36d7e274055a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f02147d8-b248-451a-8da2-c5986cf91306-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ff9680dd-6c0d-4be9-bde3-bc2f10aae58a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium0603/Sel13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium0603/Sel14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium0703/Sel15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Selenium0603/Sel11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium0603/Sel11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Selenium0603/Sel14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium0603/Sel14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +58,7 @@
     "TestNG.Sel12.executor": "Run",
     "TestNG.Sel13.executor": "Run",
     "TestNG.Sel14.testVWOLogin.executor": "Run",
+    "TestNG.Sel15.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Documents for Study/Automation class/JavaPrograms/APIAutomationRAFramework5X"
@@ -85,21 +69,12 @@
       <recent name="D:\Documents for Study\Automation class\JavaPrograms\ATB5XSelenium\src\test\java\org\example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.Selenium0703" />
       <recent name="org.example.Selenium0603" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Sel14.testVWOLogin">
-    <configuration name="D:/Documents for Study/Automation class/JavaPrograms/ATB5XSelenium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB5XSelenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Sel15">
     <configuration name="Sel11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5XSelenium" />
       <extension name="coverage">
@@ -169,13 +144,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sel15" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB5XSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Selenium0703.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Selenium0703" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium0703.Sel15" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Sel15" />
         <item itemvalue="TestNG.Sel14.testVWOLogin" />
         <item itemvalue="TestNG.Sel13" />
         <item itemvalue="TestNG.Sel11" />
         <item itemvalue="TestNG.Sel12" />
-        <item itemvalue="TestNG.D:/Documents for Study/Automation class/JavaPrograms/ATB5XSelenium/testng.xml" />
       </list>
     </recent_temporary>
   </component>
