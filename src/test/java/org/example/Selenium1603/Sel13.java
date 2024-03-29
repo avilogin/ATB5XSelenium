@@ -1,4 +1,4 @@
-package org.example.Selenium0603;
+package org.example.Selenium1603;
 
 import jdk.jfr.Description;
 import org.openqa.selenium.By;

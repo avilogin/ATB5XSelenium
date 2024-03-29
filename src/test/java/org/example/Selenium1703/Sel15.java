@@ -1,6 +1,5 @@
-package org.example.Selenium0703;
+package org.example.Selenium1703;
 
-import jdk.jfr.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
