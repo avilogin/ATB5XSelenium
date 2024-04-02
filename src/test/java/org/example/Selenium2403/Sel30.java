@@ -2,23 +2,17 @@ package org.example.Selenium2403;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
+import java.util.List;
 
-public class Sel24 {
-
-    //DropDown
+public class Sel30 {
 
     EdgeDriver driver;
 
@@ -34,13 +28,21 @@ public class Sel24 {
     @Test(groups = "QA")
     @Description("Test Case Description")
     public void testPositive() throws InterruptedException {
-        driver.get("https://the-internet.herokuapp.com/dropdown");
+        String URL = "https://awesomeqa.com/webtable1.html";
+        driver.get(URL);
         driver.manage().window().maximize();
-        WebElement element_select = driver.findElement(By.id("dropdown"));
-        Select sel = new Select(element_select);
-        sel.selectByVisibleText("Option 2");
 
-        Thread.sleep(5000);
+        WebElement table = driver.findElement(By.xpath("//table[@summary=\"Sample Table\"]/tbody"));
+        List<WebElement> tab_rows = table.findElements(By.tagName("tr"));
+        System.out.println(tab_rows.size());
+
+        for (int i = 0; i < tab_rows.size(); i++) {
+            List<WebElement> col = tab_rows.get(i).findElements(By.tagName("td"));
+
+            for (WebElement e: col){
+                System.out.println(e.getText());
+            }
+        }
 
 
 

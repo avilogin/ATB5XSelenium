@@ -50,27 +50,6 @@ public class Sel19 {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @AfterTest
     public void closeBrowser(){
         driver.quit();
