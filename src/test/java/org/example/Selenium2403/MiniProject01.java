@@ -11,6 +11,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -21,6 +22,7 @@ import java.util.List;
 public class MiniProject01 {
 
     ChromeDriver driver;
+    String comment_provided = "Hello Automation 123";
 
     @BeforeTest
     public void openBrowser() {
@@ -47,37 +49,43 @@ public class MiniProject01 {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@id = \"txt-username\"]"))));
 
-        //Providing Values
+        //Providing Values in username
         WebElement username = driver.findElement(By.xpath("//input[@id = \"txt-username\"]"));
         username.sendKeys("John Doe");
 
+        //Providing Values in password
         WebElement password = driver.findElement(By.xpath("//input[@name = \"password\"]"));
         password.sendKeys("ThisIsNotAPassword");
 
+        //Clicking the login button
         driver.findElement(By.xpath("//button[@id = \"btn-login\"]")).click();
 
+        //Waiting for the page to load
         WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait2.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@id = \"combo_facility\"]"))));
+        wait2.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//select[@id = \"combo_facility\"]"))));
 
+        //selecting from the dropdown
         WebElement facility = driver.findElement(By.id("combo_facility"));
         Select sel = new Select(facility);
         sel.selectByVisibleText("Seoul CURA Healthcare Center");
 
+        //clicking the checkbox
         driver.findElement(By.id("chk_hospotal_readmission")).click();
 
+        //providing the date
+        WebElement date = driver.findElement(By.xpath("//input[@id = \"txt_visit_date\"]"));
+        date.sendKeys("17/04/2024");
 
+        //providing th comment
+        WebElement comment_element = driver.findElement(By.xpath("//textarea[@id = \"txt_comment\"]"));
+        comment_element.sendKeys(comment_provided);
 
+        //clicking the button
+        driver.findElement(By.xpath("//button[@id = \"btn-book-appointment\"]")).click();
 
-
-
-
-        Thread.sleep(5000);
-
-
-
-
-
-
+        //fetching the text provided and validating it
+        String comment_derived = driver.findElement(By.xpath("//p[@id = \"comment\"]")).getText();
+        Assert.assertEquals(comment_provided,comment_derived);
 
 
 
