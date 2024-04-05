@@ -5,20 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e68b8bf-78e6-4eac-a6a4-196a64877095" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/03e220c1-19e2-474a-bb08-5cc3632cb64e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/055414c2-cf95-4dcb-a322-077c4470e6c9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/09c656ce-dd6a-4267-8254-981959b476e2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0e798dd5-3d28-4999-8883-09936698d946-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/25691f15-628e-4dfc-8980-8cf8c7304f33-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3522007d-032a-4b71-af93-1e58ed9e442f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3fd86f01-1496-4dd3-9dc8-e6580b5d74ba-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6ab060bb-f749-41b5-baeb-726ec6881043-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/912c3fbe-7e25-4126-9330-c70d19c8b611-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b7245396-7b18-4d4d-b6e0-a895e9e9516a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c4e95f97-d147-49bb-8aa7-f3c25b038677-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d14dba98-f62e-4bf6-8014-df9207d564dd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1082237d-596f-4c06-886e-e23356d6c354-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/417b2960-8d7f-4441-9e80-14a151d33f50-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/48f3fa92-ab7d-4311-bf02-7b844f30d4e0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4fff26fa-0d21-4b64-aa36-b02b10cdd145-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/793f302a-368f-4eed-9da1-e5a1daf9bac3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7f73e040-9273-4fe3-83dc-c68db8d62d72-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/89845fb1-4dde-47c7-a74d-b3cfe2a5442f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/89f09903-6030-4dd2-90bd-d2607dd0ecea-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8ea44785-9d37-43eb-9f0b-afd269113a5e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/971a1560-a9f8-4ae8-be54-009f3d6a29fd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9b30439f-453e-4642-86bc-f415216027f9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9f3729f9-847a-4435-9ef7-3e9f2af18ed3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b53a834f-6a93-40a1-9355-411644135f56-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bb59aed2-cb02-4c66-88ec-296711d01649-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/befd4a3e-b738-495c-b685-35ccbecdd34c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c15ec48a-4d1e-4ef0-aa7f-8accf8d67b76-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c39b045e-1abc-4154-a087-4723498b3156-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cf22fa79-3ae6-42e0-b92b-d116df4d1405-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d5f6f6ac-6db2-4d0e-b6b8-700f32c76bf9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e9d4874e-feab-4df5-bf50-c5a24321b128-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium3003/Sel31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium3003/Sel32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium3003/Sel33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium3003/Sel34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium3003/Sel35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium3003/Sel36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_miniproj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Selenium2403/MiniProject01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium2403/MiniProject01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,78 +60,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Sel01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sel09.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ATB5XSelenium [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/Documents for Study/Automation class/JavaPrograms/ATB5XSelenium/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MiniProject01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel02.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel03.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel03.extentions.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel04.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel06.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel07.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel10.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel11.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel12.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel13.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel14.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel14.testVWOLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel15.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel17.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel17.testVWOLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel20.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel21.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel22.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel23.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel24.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel25 (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel25.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel26.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel26.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel27.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel28.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel29.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel29.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel30.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents for Study/Automation class/JavaPrograms/APIAutomationRAFramework5X&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Sel01.executor": "Run",
+    "Application.Sel09.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.test2.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.ATB5XSelenium [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.D:/Documents for Study/Automation class/JavaPrograms/ATB5XSelenium/testng.xml.executor": "Run",
+    "TestNG.MiniProject01.executor": "Run",
+    "TestNG.Sel02.test.executor": "Run",
+    "TestNG.Sel03.executor": "Run",
+    "TestNG.Sel03.extentions.executor": "Run",
+    "TestNG.Sel04.executor": "Run",
+    "TestNG.Sel06.executor": "Run",
+    "TestNG.Sel07.executor": "Run",
+    "TestNG.Sel10.executor": "Run",
+    "TestNG.Sel11.executor": "Run",
+    "TestNG.Sel12.executor": "Run",
+    "TestNG.Sel13.executor": "Run",
+    "TestNG.Sel14.executor": "Run",
+    "TestNG.Sel14.testVWOLogin.executor": "Run",
+    "TestNG.Sel15.executor": "Run",
+    "TestNG.Sel17.executor": "Run",
+    "TestNG.Sel17.testVWOLogin.executor": "Run",
+    "TestNG.Sel20.executor": "Run",
+    "TestNG.Sel21.executor": "Run",
+    "TestNG.Sel22.executor": "Run",
+    "TestNG.Sel23.executor": "Run",
+    "TestNG.Sel24.executor": "Run",
+    "TestNG.Sel25 (1).executor": "Run",
+    "TestNG.Sel25.executor": "Run",
+    "TestNG.Sel26.executor": "Run",
+    "TestNG.Sel26.testPositive.executor": "Run",
+    "TestNG.Sel27.executor": "Run",
+    "TestNG.Sel28.executor": "Run",
+    "TestNG.Sel29.executor": "Run",
+    "TestNG.Sel29.testPositive.executor": "Run",
+    "TestNG.Sel30.executor": "Run",
+    "TestNG.Sel31.executor": "Run",
+    "TestNG.Sel34.executor": "Run",
+    "TestNG.Sel36.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documents for Study/Automation class/JavaPrograms/ATB5XSelenium",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents for Study\Automation class\JavaPrograms\ATB5XSelenium" />
       <recent name="D:\Documents for Study\Automation class\JavaPrograms\ATB5XSelenium\src\test\java\org\example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.Selenium3003" />
       <recent name="org.example.Selenium2403" />
       <recent name="org.example.Selenium2303" />
       <recent name="org.example.Selenium0703" />
       <recent name="org.example.Selenium0603" />
-      <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MiniProject01">
-    <configuration name="MiniProject01" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Sel38">
+    <configuration name="Sel31" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5XSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Selenium2403.*" />
+          <option name="PATTERN" value="org.example.Selenium3003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium2403" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium2403.MiniProject01" />
+      <option name="PACKAGE_NAME" value="org.example.Selenium3003" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium3003.Sel31" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -125,16 +143,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sel28" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sel34" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5XSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Selenium2403.*" />
+          <option name="PATTERN" value="org.example.Selenium3003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium2403" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium2403.Sel28" />
+      <option name="PACKAGE_NAME" value="org.example.Selenium3003" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium3003.Sel34" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,16 +160,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sel29" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sel36" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5XSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Selenium2403.*" />
+          <option name="PATTERN" value="org.example.Selenium3003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium2403" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium2403.Sel29" />
+      <option name="PACKAGE_NAME" value="org.example.Selenium3003" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium3003.Sel36" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -159,34 +177,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sel29.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sel37" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5XSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Selenium2403.*" />
+          <option name="PATTERN" value="org.example.Selenium3003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium2403" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium2403.Sel29" />
-      <option name="METHOD_NAME" value="testPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="org.example.Selenium3003" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium3003.Sel37" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sel30" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sel38" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5XSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Selenium2403.*" />
+          <option name="PATTERN" value="org.example.Selenium3003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium2403" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium2403.Sel30" />
+      <option name="PACKAGE_NAME" value="org.example.Selenium3003" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium3003.Sel38" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -195,19 +212,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.MiniProject01" />
-      <item itemvalue="TestNG.Sel30" />
-      <item itemvalue="TestNG.Sel29" />
-      <item itemvalue="TestNG.Sel29.testPositive" />
-      <item itemvalue="TestNG.Sel28" />
+      <item itemvalue="TestNG.Sel34" />
+      <item itemvalue="TestNG.Sel36" />
+      <item itemvalue="TestNG.Sel37" />
+      <item itemvalue="TestNG.Sel38" />
+      <item itemvalue="TestNG.Sel31" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MiniProject01" />
-        <item itemvalue="TestNG.Sel30" />
-        <item itemvalue="TestNG.Sel29.testPositive" />
-        <item itemvalue="TestNG.Sel29" />
-        <item itemvalue="TestNG.Sel28" />
+        <item itemvalue="TestNG.Sel38" />
+        <item itemvalue="TestNG.Sel37" />
+        <item itemvalue="TestNG.Sel36" />
+        <item itemvalue="TestNG.Sel34" />
+        <item itemvalue="TestNG.Sel31" />
       </list>
     </recent_temporary>
   </component>
