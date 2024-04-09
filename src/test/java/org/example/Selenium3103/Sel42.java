@@ -6,12 +6,14 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Sel41 {
+import java.util.List;
+import java.util.Set;
+
+public class Sel42 {
 
     //Upload File
     //Selenium can only handle the file uploading if the tag is input and type is file
@@ -30,15 +32,24 @@ public class Sel41 {
     @Test(groups = "QA")
     @Description("Test Case Description")
     public void testPositive() throws InterruptedException {
-        String URL = "https://awesomeqa.com/selenium/upload.html";
+        String URL = "https://the-internet.herokuapp.com/windows";
         driver.get(URL);
 
 
-        WebElement choose_file= driver.findElement(By.id("fileToUpload"));
-        String dir = System.getProperty("user.dir");
-        System.out.println(dir);
-        choose_file.sendKeys(dir+"\\src\\test\\java\\org\\example\\Selenium3103\\FileToUpload.txt");
-        driver.findElement(By.name("submit")).click();
+        String mainWindowHandle = driver.getWindowHandle();
+        System.out.println("Main Window "+mainWindowHandle);
+        driver.findElement(By.linkText("Click Here")).click();
+
+        Set<String> windowHandles = driver.getWindowHandles();
+        for (String handles : windowHandles)
+        {
+           driver.switchTo().window(handles);
+            if (driver.getPageSource().contains("New Window"))
+            {
+                System.out.println("Test Case Passed");
+            }
+        }
+        driver.switchTo().window(mainWindowHandle);
 
 
         Thread.sleep(5000);

@@ -2,6 +2,7 @@ package org.example.Selenium3103;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,12 +11,15 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import static org.openqa.selenium.support.locators.RelativeLocator.*;
 
-public class Sel41 {
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
-    //Upload File
-    //Selenium can only handle the file uploading if the tag is input and type is file
+public class Sel44 {
 
+    //Relative Locators
     ChromeDriver driver;
 
     @BeforeTest
@@ -30,26 +34,13 @@ public class Sel41 {
     @Test(groups = "QA")
     @Description("Test Case Description")
     public void testPositive() throws InterruptedException {
-        String URL = "https://awesomeqa.com/selenium/upload.html";
-        driver.get(URL);
-
-
-        WebElement choose_file= driver.findElement(By.id("fileToUpload"));
-        String dir = System.getProperty("user.dir");
-        System.out.println(dir);
-        choose_file.sendKeys(dir+"\\src\\test\\java\\org\\example\\Selenium3103\\FileToUpload.txt");
-        driver.findElement(By.name("submit")).click();
+        driver.get("https://awesomeqa.com/practice.html");
+        driver.manage().window().maximize();
+        WebElement span_element = driver.findElement(By.xpath("//span[normalize-space()='Years of Experience']"));
+        driver.findElement(with(By.id("exp-3")).toRightOf(span_element)).click();
 
 
         Thread.sleep(5000);
-
-
-
-
-
-
-
-
 
 
     }
