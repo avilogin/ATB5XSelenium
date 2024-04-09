@@ -7,6 +7,7 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -15,7 +16,7 @@ import java.util.List;
 
 import static org.openqa.selenium.support.locators.RelativeLocator.with;
 
-public class Sel45 {
+public class Sel46 {
 
     //Relative Locators
     ChromeDriver driver;
@@ -32,37 +33,22 @@ public class Sel45 {
     @Test(groups = "QA")
     @Description("Test Case Description")
     public void testPositive() throws InterruptedException {
-        driver.get("https://www.aqi.in/real-time-most-polluted-city-ranking");
+        driver.get("https://codepen.io/AbdullahSajjad/full/LYGVRgK");
         driver.manage().window().maximize();
+        Thread.sleep(10000);
 
-        Thread.sleep(5000);
+        driver.switchTo().frame("result");
+        driver.findElement(By.xpath("//form[@id='form']/button")).click();
 
-        WebElement searchelement = driver.findElement(By.xpath("//input[@id=\"search_city\"]"));
-        searchelement.sendKeys("India" + Keys.ENTER);
-
-        ////table[@id='example']/tbody/tr/td[2]
-
-        List<WebElement> list_of_states = driver.findElements(By.xpath("//table[@id='example']/tbody/tr/td[2]"));
-
-
-
-        for (WebElement l : list_of_states) {
-
-            String s1 = driver.findElement(with(By.tagName("p")).toRightOf(l)).getText();
-            String s2 = driver.findElement(with(By.tagName("p")).toLeftOf(l)).getText();
-            System.out.println( s2 + " | " + l.getText() + " | " + s1);
-
-//            String s3 = driver.findElement(with(By.tagName("p")).below(l)).getText();
-//            String s4 = driver.findElement(with(By.tagName("p")).above(l)).getText();
-//            System.out.println( s4 + " | " + l.getText() + " | " + s3);
-
-       }
+        WebElement username = driver.findElement(By.xpath("//input[@id='username']"));
+        WebElement error_element= driver.findElement(with(By.tagName("small")).below(username));
+        String error_message = error_element.getText();
+        System.out.println(error_message);
+        Assert.assertTrue(error_element.isDisplayed());
+        Assert.assertEquals(error_message,"Username must be at least 3 characters");
 
 
         Thread.sleep(5000);
-
-
-
     }
 
 
